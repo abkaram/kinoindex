@@ -5,7 +5,7 @@ $(document).ready(function(){
         var term = $('input[name="t"]').val();
         $.ajax({
            type: "get",
-           url: "http://www.omdbapi.com/",
+           url: "https://www.omdbapi.com/",
            dataType: "jsonp",
            data: { t: term, tomatoes: "true" }, 
            success: function(movie)
