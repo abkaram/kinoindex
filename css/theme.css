@@ -1,0 +1,36 @@
+html{
+    color: black;
+}
+
+body{
+    background-color: #f2d58c;
+    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+}
+
+#header{
+    color: black;
+    text-align: center;
+    border: 1px solid #c6c9c3;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#searchButton{
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+	line-height: 1.8em;
+}
+
+.container{
+    margin-top: 25px;
+}
+
+#movieDisplay{
+    border: 1px solid #c6c9c3;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
